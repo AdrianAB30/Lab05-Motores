@@ -8,4 +8,5 @@ public class SOs_Music : ScriptableObject
 {
     [SerializeField] AudioMixer audioMixer;
     [SerializeField] AudioClip audioClip;
+
 }
