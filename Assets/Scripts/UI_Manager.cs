@@ -5,6 +5,7 @@ using UnityEngine;
 using System;
 using TMPro;
 using UnityEngine.UI;
+
 public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private TMP_Text pressAnyButton;
@@ -149,5 +150,9 @@ public class UI_Manager : MonoBehaviour
         {
             CancelInvoke("FadeInExitButton");
         }
+    }
+    public void AplicationQuit()
+    {
+        
     }
 }
